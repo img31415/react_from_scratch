@@ -1,0 +1,34 @@
+{
+  "name": "react_from_scratch",
+  "version": "1.0.0",
+  "description": "react_from_scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "react_from_scratch --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/img31415/react_from_scratch.git"
+  },
+  "author": "Melissa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/img31415/react_from_scratch/issues"
+  },
+  "homepage": "https://github.com/img31415/react_from_scratch#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "keywords": []
+}
