@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "react_from_scratch --open",
+    "start": "webpack-dev-server --open",
     "build": "webpack"
   },
   "repository": {
@@ -27,8 +27,11 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
+    "html-webpack-plugin": "^4.0.3",
+    "npx": "^10.2.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "webpack-dev-server": "^3.7.1"
   },
   "keywords": []
 }
